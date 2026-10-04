@@ -15,5 +15,9 @@ namespace stockpulse
         double high{};
         double low{};
         std::int64_t volume{};
+
     };
+
+
+    bool is_valid(const Candle& candle);
 }
