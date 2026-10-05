@@ -11,9 +11,9 @@ protected:
         .symbol = "AAPL",
         .timestamp = std::chrono::sys_seconds{std::chrono::seconds{1759593600}},
         .open = 187.10,
-        .close = 187.30,
         .high = 187.45,
         .low = 186.90,
+        .close = 187.30,
         .volume = 15230,
     };
 };

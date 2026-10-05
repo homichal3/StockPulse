@@ -11,9 +11,9 @@ namespace stockpulse
         std::string symbol;
         std::chrono::sys_seconds timestamp;
         double open{};
-        double close{};
         double high{};
         double low{};
+        double close{};
         std::int64_t volume{};
 
     };
