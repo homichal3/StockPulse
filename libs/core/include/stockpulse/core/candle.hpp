@@ -14,8 +14,9 @@ namespace stockpulse
         double high{};
         double low{};
         double close{};
-        std::int64_t volume{};
-
+        double volume{};
+        double vwap{};                // volume-weighted average price; sensowna tylko gdy trade_count > 0
+        std::int64_t trade_count{};
     };
 
 
